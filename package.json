@@ -1,0 +1,27 @@
+{
+  "name": "vue-ssr-repro-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/TestComponent.js",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "vue-loader": "^12.2.2",
+    "vue-template-compiler": "^2.4.1",
+    "webpack": "^3.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirokiosame/vue-ssr-repro-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hirokiosame/vue-ssr-repro-component/issues"
+  },
+  "homepage": "https://github.com/hirokiosame/vue-ssr-repro-component#readme"
+}
