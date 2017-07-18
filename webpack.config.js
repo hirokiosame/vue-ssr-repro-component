@@ -2,6 +2,8 @@ const WebpackConfig = module.exports = {
 
 	context: __dirname + '/src',
 
+	target: 'node',
+
 	entry: {
 		'TestComponent': './TestComponent.vue',
 	},
